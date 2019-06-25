@@ -1068,6 +1068,12 @@ form.searchform.ubersearch {
 }
 
 
+/* PAGE: Оформление заявка */
+
+.formline .row1 {
+    width: 100px;
+}
+
 
 
 @media (min-width: 1400px) {
