@@ -1070,10 +1070,83 @@ form.searchform.ubersearch {
 
 /* PAGE: Оформление заявка */
 
-.formline .row1 {
-    width: 100px;
+.formline {
+    display: block;
+    overflow-x: scroll;
+    overflow-y: hidden;
 }
 
+.formline .row1 {
+    width: 20%
+}
+
+.informline {
+    display: inline-block;
+    table-layout: fixed;
+}
+
+.studcol0 {
+    width: 2%
+}
+
+.studcol9 {
+    width: 25%
+}
+
+.studcol14 {
+    width: 15%
+}
+
+.formline td, .formline th {
+    border: none !important;
+}
+
+.informline td, .informline th {
+    border: 1px solid grey !important;
+}
+
+.select_addgroup, .select_addallow, .select_addperse,
+.select_addperst, .select_addspec, .text_addprevios,
+.select_addcgroup, .select_addcallow, .select_addcpers,
+.text_addcprevios_test, .text_addphone, .text_addemail,
+.text_addpass, .text_addedu, .file_addedu, .text_addpost, 
+.text_addborn, .text_addexp, .text_addfio {
+    width: 100%
+}
+
+.file_addedu {
+    width: 80%
+}
+
+.clear_addedu {
+    width: 20%
+}
+
+#addstudcell {
+    border: none !important;
+}
+
+#r_inn, #r_form, #r_form_full, #r_name,
+#cshortname, #cfullname, #cspecialisation,
+#r_kpp, #r_ogrn, #dogrn, #nokpo, #r_address,
+#cfactadr, #r_bank, #r_account, #r_korr,
+#r_bik, #r_director_name, #r_director_rank,
+#r_phone, #csite, #r_email, #r_contact_email,
+#r_contact_phone, #r_contact, #r_contact_name,
+#r_contact_patr, #r_contact_post, textarea[name="r_note"],
+#nfrom, .big {
+    width: 80%
+}
+
+.gensmall em b,
+.gen .required,
+.delstud {
+    color: tomato !important;
+}
+
+#printbut, #subbut {
+    background: steelblue !important
+}
 
 
 @media (min-width: 1400px) {
