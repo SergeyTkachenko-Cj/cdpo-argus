@@ -104,6 +104,17 @@ ul.breadcrumbs {
   margin-top: 10px;
 }
 
+#zakupki {
+    background-image: url(../wp-content/postavsiki.jpg) !important;
+    background-size: 100% 120% !important;
+    height: 5rem;
+    background-position-y: -4px !important;
+}
+
+#custom_html-2 .widget-content {
+    margin-bottom: 40px;
+}
+
 /* Зеленый 20A54C желтый FFEC00  белый E6FFEE   фиолетовый a52079 синий 0011ff салатовый 5ad215 сине-фиолетовый 8d15d2  фиолетовый2 a5006e синий2 2029a5
 #37BD63
 30A958;
@@ -200,11 +211,11 @@ input[type="file"]::-webkit-file-upload-button {
 }
 
 
-#text-2 .button-5 {
+/*#text-2 .button-5 {
   top: -51px;  
   float: left !important;  
   right: -26px;
-}
+}*/
 
 
 
@@ -576,12 +587,12 @@ div.item {
   vertical-align: bottom;
 }
 
-#text-2 .button-5 {
+/*#text-2 .button-5 {
   top: -51px;  
   float: left;  
   right: -26px;
 }
-
+*/
 
 @media (max-width: 1400px) {
 
